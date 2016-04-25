@@ -1,0 +1,16 @@
+include ../mixins/mixins.jade
+
+doctype
+html
+  head
+    block title
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='../style/public.css')
+  body
+    block content
+    block footer
+      script(src='../js/lib/jquery-1.11.3.min.js')
+      script(src='../js/base.js')
+      script(src='../js/common.js')
+   
+    
